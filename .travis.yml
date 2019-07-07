@@ -6,7 +6,7 @@ services:
 language: minimal
 
 script:
-  - docker build --build-arg "TRAVIS_VERSION=${TRAVIS_TAG}" -t "heapy/travis-cli-docker:${TRAVIS_TAG}" -t "heapy/travis-cli-docker:latest" ./
+  - build.sh
 
 deploy:
   provider: script
