@@ -8,6 +8,7 @@ RUN apt-get update \
  && gem install travis -v ${TRAVIS_VERSION} --no-rdoc --no-ri
 
 # Travis configuration
+ENV TRAVIS_CONFIG_PATH /travis
 VOLUME /travis
 
 # Repository where travis should be executed
