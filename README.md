@@ -9,7 +9,7 @@ Travis cli gem packed in docker for use on developers machines
 Define alias for running container:
 
 ```bash
-alias travis='docker run --rm -it -v $PWD:/repository -v ~/.yoda/travis:/travis heapy/travis-cli-docker';
+alias travis='docker run --rm -it -v $PWD:/repository -v ~/.travis:/travis heapy/travis-cli-docker';
 ```
 
 ### Login:
