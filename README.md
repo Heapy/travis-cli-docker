@@ -1,4 +1,4 @@
-# travis-cli-docker
+# travis-cli in docker
 
 [![Build Status](https://travis-ci.com/Heapy/travis-cli-docker.svg?branch=master)](https://travis-ci.com/Heapy/travis-cli-docker)
 
