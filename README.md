@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.com/Heapy/travis-cli-docker.svg?branch=master)](https://travis-ci.com/Heapy/travis-cli-docker)
 
-Travis cli gem packed in docker for use on developers machines
+Travis [cli gem](https://github.com/travis-ci/travis.rb) packed in docker for use on developers machines
 
 ## Usage
 
@@ -23,3 +23,7 @@ travis login --com
 ```bash
 travis encrypt-file file.txt
 ```
+
+## Release process
+
+Create new tag with travis gem version and push it. Travis will build container and push it to registry.
